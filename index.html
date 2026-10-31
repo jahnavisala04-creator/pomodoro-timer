@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pomodoro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="card">
+        <div id="mode" class="mode">Focus</div>
+        <div id="time" class="time">25:00</div>
+
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <label class="music">Music
+            <select id="musicSelect">
+                <option value="none">No music</option>
+                <option value="calming.mp3">Calming Zen</option>
+                <option value="piano.mp3">Piano</option>
+                <option value="temple.mp3">Temple</option>
+            </select>
+        </label>
+
+        <p class="count">Focus sessions today: <strong id="count">0</strong></p>
+
+        <details>
+            <summary>Settings</summary>
+            <label>Focus (min) <input id="focusMin" type="number" min="0.1" step="any"></label>
+            <label>Break (min) <input id="shortMin" type="number" min="0.1" step="any"></label>
+            <label>Long break (min) <input id="longMin" type="number" min="0.1" step="any"></label>
+        </details>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
