@@ -2,7 +2,7 @@
 
 A Pomodoro timer web app built with HTML, CSS and JavaScript.
 
-**Live site:** YOUR-VERCEL-URL
+**Live site:** https://pomodoro-timer-lyart-iota.vercel.app
 
 ## Features
 - Large MM:SS countdown with Start, Pause and Reset
@@ -22,6 +22,3 @@ A Pomodoro timer web app built with HTML, CSS and JavaScript.
 - `index.html`: page structure
 - `style.css`: styling
 - `script.js`: timer logic, sounds, music, storage
-
-## Credits
-Background image and music: PIXABAY MUSIC
